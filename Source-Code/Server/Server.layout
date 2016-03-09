@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\..\addons\ofxMSAInteractiveObject\ofxMSAInteractiveObject.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4318" topLine="107" />
+	</File>
+	<File name="..\..\..\..\addons\ofxMSAInteractiveObject\ofxMSAInteractiveObject.h" open="0" top="0" tabpos="0">
+		<Cursor position="2638" topLine="43" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h" open="0" top="0" tabpos="0">
+		<Cursor position="4931" topLine="38" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="801" topLine="147" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.h" open="0" top="0" tabpos="0">
+		<Cursor position="290" topLine="48" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="672" topLine="443" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5495" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.h" open="0" top="0" tabpos="0">
+		<Cursor position="873" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="86" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\core\operations.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="73805" topLine="2134" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h" open="0" top="0" tabpos="0">
+		<Cursor position="3887" topLine="69" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenNI\src\ofxOpenNI.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="159" topLine="3394" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenNI\src\ofxOpenNI.h" open="0" top="0" tabpos="0">
+		<Cursor position="4286" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenNI\src\ofxOpenNIUtils.h" open="0" top="0" tabpos="0">
+		<Cursor position="1170" topLine="16" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\Controls\ofxSimpleGuiFPSCounter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="574" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\Controls\ofxSimpleGuiFPSCounter.h" open="0" top="0" tabpos="0">
+		<Cursor position="48" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiConfig.h" open="0" top="0" tabpos="1">
+		<Cursor position="448" topLine="3" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiControl.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiPage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3735" topLine="221" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiPage.h" open="0" top="0" tabpos="0">
+		<Cursor position="582" topLine="1" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiToo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2092" topLine="47" />
+	</File>
+	<File name="src\Constants.h" open="0" top="0" tabpos="5">
+		<Cursor position="799" topLine="0" />
+	</File>
+	<File name="src\FrameBuffer.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3078" topLine="62" />
+	</File>
+	<File name="src\FrameBuffer.h" open="0" top="0" tabpos="4">
+		<Cursor position="661" topLine="0" />
+	</File>
+	<File name="src\FrameUtils.h" open="0" top="0" tabpos="3">
+		<Cursor position="215" topLine="0" />
+	</File>
+	<File name="src\MainBuffer\Field.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="930" topLine="1" />
+	</File>
+	<File name="src\MainBuffer\Field.h" open="0" top="0" tabpos="3">
+		<Cursor position="514" topLine="0" />
+	</File>
+	<File name="src\MainBuffer\FieldManager.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="3286" topLine="107" />
+	</File>
+	<File name="src\MainBuffer\FieldManager.h" open="0" top="0" tabpos="4">
+		<Cursor position="1847" topLine="36" />
+	</File>
+	<File name="src\MainBuffer\MainBuffer.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1955" topLine="53" />
+	</File>
+	<File name="src\MainBuffer\MainBuffer.h" open="0" top="0" tabpos="1">
+		<Cursor position="1084" topLine="16" />
+	</File>
+	<File name="src\MainBuffer\MainBufferRT.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2489" topLine="64" />
+	</File>
+	<File name="src\MainBuffer\MainBufferRT.h" open="0" top="0" tabpos="6">
+		<Cursor position="1335" topLine="9" />
+	</File>
+	<File name="src\MeshCollector.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2805" topLine="105" />
+	</File>
+	<File name="src\MeshCollector.h" open="0" top="0" tabpos="10">
+		<Cursor position="1665" topLine="24" />
+	</File>
+	<File name="src\MeshGenerator.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="1058" topLine="42" />
+	</File>
+	<File name="src\MeshGenerator.h" open="0" top="0" tabpos="6">
+		<Cursor position="464" topLine="0" />
+	</File>
+	<File name="src\MeshThreadedGenerator.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="3948" topLine="91" />
+	</File>
+	<File name="src\MeshThreadedGenerator.h" open="0" top="0" tabpos="2">
+		<Cursor position="1439" topLine="38" />
+	</File>
+	<File name="src\Server.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="2223" topLine="83" />
+	</File>
+	<File name="src\Server.h" open="0" top="0" tabpos="1">
+		<Cursor position="1308" topLine="21" />
+	</File>
+	<File name="src\ServerGlobalData.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1072" topLine="0" />
+	</File>
+	<File name="src\ServerGlobalData.h" open="0" top="0" tabpos="5">
+		<Cursor position="288" topLine="0" />
+	</File>
+	<File name="src\ThreadData.h" open="0" top="0" tabpos="3">
+		<Cursor position="1305" topLine="26" />
+	</File>
+	<File name="src\ThreadServer.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="6085" topLine="140" />
+	</File>
+	<File name="src\ThreadServer.h" open="0" top="0" tabpos="3">
+		<Cursor position="429" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="394" topLine="0" />
+	</File>
+	<File name="src\masterPly.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4864" topLine="143" />
+	</File>
+	<File name="src\masterPly.h" open="0" top="0" tabpos="0">
+		<Cursor position="836" topLine="12" />
+	</File>
+</CodeBlocks_layout_file>

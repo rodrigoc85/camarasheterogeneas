@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="src\GlobalData.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\GlobalData.h" open="0" top="0" tabpos="0">
+		<Cursor position="172" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="src\masterPly.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\masterPly.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src\masterSettings.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\masterSettings.h" open="0" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\matrix4x4.h" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\modelImg.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="385" topLine="0" />
+	</File>
+	<File name="src\modelImg.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\modelPly.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="440" topLine="127" />
+	</File>
+	<File name="src\modelPly.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\modelSetting.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="2431" topLine="72" />
+	</File>
+	<File name="src\modelSetting.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\plylib.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,21 @@
+<settings>
+	<serverPort>11969</serverPort>
+    <fps>5</fps>
+	<persistToPly>0</persistToPly>
+	<!-- 
+	logLevel: 
+		0- OF_LOG_VERBOSE,
+		1- OF_LOG_NOTICE,
+		2- OF_LOG_WARNING,
+		3- OF_LOG_ERROR,
+		4- OF_LOG_FATAL_ERROR,
+		5- OF_LOG_SILENT 
+	-->
+	<logLevel>0</logLevel>
+	<maxPackageSize>60000</maxPackageSize>
+	<syncFactorValue>1</syncFactorValue>
+	<maxThreadedServers>100</maxThreadedServers>
+	<maxReceiveFrameBuffer>10</maxReceiveFrameBuffer>
+	<processMostRecent>1</processMostRecent>
+	<totalFreeCores>2</totalFreeCores>
+</settings>

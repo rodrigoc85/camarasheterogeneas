@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="src\FreeImage.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\MeshMain.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1933" topLine="46" />
+	</File>
+	<File name="src\MeshMain.h" open="0" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\TextureMain.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\TextureMain.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="12013" topLine="341" />
+	</File>
+	<File name="src\masterPly.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1669" topLine="0" />
+	</File>
+	<File name="src\masterPly.h" open="0" top="0" tabpos="0">
+		<Cursor position="1899" topLine="0" />
+	</File>
+	<File name="src\masterSettings.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\masterSettings.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\matrix4x4.h" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\modelPly.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1070" topLine="0" />
+	</File>
+	<File name="src\modelPly.h" open="0" top="0" tabpos="2">
+		<Cursor position="831" topLine="6" />
+	</File>
+	<File name="src\modelXYZ.cpp" open="0" top="0" tabpos="18">
+		<Cursor position="1378" topLine="45" />
+	</File>
+	<File name="src\modelXYZ.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\plylib.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="709" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

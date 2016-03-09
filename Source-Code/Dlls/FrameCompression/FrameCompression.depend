@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1439061165 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\framecompression\main.cpp
+	"main.h"
+
+1439061178 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\framecompression\main.h
+	<windows.h>
+	<vector>
+	<zlib.h>
+	<iostream>
+

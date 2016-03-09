@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1337499462 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\libs\jpge.cpp
+	"jpge.h"
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<stdio.h>
+
+1303002811 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\libs\jpge.h
+
+1303003021 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\libs\timer.cpp
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	<time.h>
+	"timer.h"
+	<windows.h>
+	<xtl.h>
+	<sys/timex.h>
+
+1303003021 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\libs\timer.h
+
+1337496502 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\libs\jpgd.cpp
+	"jpgd.h"
+	<string.h>
+	<assert.h>
+
+1337493135 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\libs\jpgd.h
+	<stdlib.h>
+	<stdio.h>
+	<setjmp.h>
+
+1411777735 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\main.cpp
+	"main.h"
+	"jpge.h"
+	"jpgd.h"
+	"timer.h"
+	<ctype.h>
+
+1411931582 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\main.h
+	<windows.h>
+	"jpge.h"
+	"jpgd.h"
+	"timer.h"
+	<ctype.h>
+
+1303006411 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\jpge.h
+
+1337496735 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\jpgd.h
+	<stdlib.h>
+	<stdio.h>
+	<setjmp.h>
+
+1303006621 c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\timer.h
+
+1337503062 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\jpge.cpp
+	"jpge.h"
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+	<stdio.h>
+
+1303006621 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\timer.cpp
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	<time.h>
+	"timer.h"
+	<windows.h>
+	<xtl.h>
+	<sys/timex.h>
+
+1337500102 source:c:\openframeworks\apps\myapps\camaras_heterogeneas\dlls\imagecompression\jpgd.cpp
+	"jpgd.h"
+	<string.h>
+	<assert.h>
+

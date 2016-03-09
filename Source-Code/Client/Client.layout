@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h" open="0" top="0" tabpos="0">
+		<Cursor position="755" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5073" topLine="187" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="7610" topLine="270" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="4399" topLine="151" />
+	</File>
+	<File name="..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.h" open="0" top="0" tabpos="0">
+		<Cursor position="2291" topLine="57" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui\highgui_c.h" open="0" top="0" tabpos="3">
+		<Cursor position="2179" topLine="33" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ts\ts.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="6553" topLine="136" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="25722" topLine="847" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\src\ofxCvImage.h" open="0" top="0" tabpos="0">
+		<Cursor position="373" topLine="2" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h" open="0" top="0" tabpos="0">
+		<Cursor position="238" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenNI\src\ofxOpenNI.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="97046" topLine="2566" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenNI\src\ofxOpenNI.h" open="0" top="0" tabpos="4">
+		<Cursor position="8579" topLine="256" />
+	</File>
+	<File name="..\..\..\..\addons\ofxOpenNI\src\ofxOpenNITypes.h" open="0" top="0" tabpos="0">
+		<Cursor position="10241" topLine="327" />
+	</File>
+	<File name="..\..\..\..\addons\ofxQTVideoSaver\src\ofxQtVideoSaver.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="14192" topLine="415" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\Controls\ofxSimpleGuiButton.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1293" topLine="27" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\Controls\ofxSimpleGuiButton.h" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiConfig.h" open="0" top="0" tabpos="0">
+		<Cursor position="556" topLine="3" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiControl.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="531" topLine="55" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiControl.h" open="0" top="0" tabpos="0">
+		<Cursor position="211" topLine="33" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiPage.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="6524" topLine="174" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiToo.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="222" topLine="28" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiToo.h" open="0" top="0" tabpos="7">
+		<Cursor position="4891" topLine="113" />
+	</File>
+	<File name="..\..\..\..\addons\ofxSimpleGuiToo\ofxSimpleGuiValueControl.h" open="0" top="0" tabpos="0">
+		<Cursor position="166" topLine="0" />
+	</File>
+	<File name="src\Constants.h" open="0" top="0" tabpos="0">
+		<Cursor position="14" topLine="0" />
+	</File>
+	<File name="src\FrameUtils.h" open="0" top="0" tabpos="3">
+		<Cursor position="5906" topLine="0" />
+	</File>
+	<File name="src\GlobalData.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3241" topLine="71" />
+	</File>
+	<File name="src\GlobalData.h" open="0" top="0" tabpos="4">
+		<Cursor position="713" topLine="17" />
+	</File>
+	<File name="src\Grabber.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="7071" topLine="194" />
+	</File>
+	<File name="src\Grabber.h" open="0" top="0" tabpos="4">
+		<Cursor position="844" topLine="22" />
+	</File>
+	<File name="src\IGrabber.h" open="0" top="0" tabpos="5">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="src\Thread2D.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="2088" topLine="49" />
+	</File>
+	<File name="src\Thread2D.h" open="0" top="0" tabpos="5">
+		<Cursor position="478" topLine="7" />
+	</File>
+	<File name="src\Thread3D.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="3435" topLine="83" />
+	</File>
+	<File name="src\Thread3D.h" open="0" top="0" tabpos="8">
+		<Cursor position="718" topLine="22" />
+	</File>
+	<File name="src\ThreadData.h" open="0" top="0" tabpos="7">
+		<Cursor position="1091" topLine="21" />
+	</File>
+	<File name="src\ThreadONI.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1583" topLine="25" />
+	</File>
+	<File name="src\ThreadONI.h" open="0" top="0" tabpos="10">
+		<Cursor position="1051" topLine="28" />
+	</File>
+	<File name="src\Transmitter.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="7942" topLine="153" />
+	</File>
+	<File name="src\Transmitter.h" open="0" top="0" tabpos="3">
+		<Cursor position="58" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="414" topLine="0" />
+	</File>
+	<File name="src\testApp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2422" topLine="60" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Client" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons\;src\;addons\ofxNetwork\src\;addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d\;addons\ofxOpenCv\libs\opencv\include\opencv2\contrib\;addons\ofxOpenCv\libs\opencv\include\opencv2\core\;addons\ofxOpenCv\libs\opencv\include\opencv2\features2d\;addons\ofxOpenCv\libs\opencv\include\opencv2\flann\;addons\ofxOpenCv\libs\opencv\include\opencv2\gpu\;addons\ofxOpenCv\libs\opencv\include\opencv2\highgui\;addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\;addons\ofxOpenCv\libs\opencv\include\opencv2\legacy\;addons\ofxOpenCv\libs\opencv\include\opencv2\ml\;addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect\;addons\ofxOpenCv\libs\opencv\include\opencv2\;addons\ofxOpenCv\libs\opencv\include\opencv2\ts\;addons\ofxOpenCv\libs\opencv\include\opencv2\video\;addons\ofxOpenCv\libs\opencv\include\opencv\;addons\ofxOpenCv\src\;addons\ofxXmlSettings\libs\;addons\ofxXmlSettings\src\;src\Threads\;src\Data\;addons\ofxOpenNI\;src\Utils\;addons\ofxQTVideoSaver\;addons\ofxQTVideoSaver\src\;" />
+		<Build>
+			<Target title="release">
+				<Option output="bin\$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\release" />
+				<Option external_deps="C:\of_v0073_win_cb_release\libs\openFrameworksCompiled\lib\win_cb\openFrameworks.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="C:\of_v0073_win_cb_release/libs/openFrameworksCompiled/lib/win_cb/openFrameworks.lib" />
+					<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\openNI.lib" />
+					<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVCNITE_1_5_2.lib" />
+					<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVFeatures_1_5_2.lib" />
+					<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVHandGenerator_1_5_2.lib" />
+					<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVNITE_1_5_2.lib" />
+					<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\include" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="bin\$(PROJECT_NAME)_DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\debug\" />
+				<Option external_deps="C:\of_v0073_win_cb_release\libs\openFrameworksCompiled\lib\win_cb\openFrameworksDebug.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="C:\of_v0073_win_cb_release/libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wno-multichar" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\glu\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\freetype\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\freetype\include\freetype2" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\FreeImage\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\quicktime\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\rtAudio\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\fmodex\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\videoInput\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\glew\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\glut\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\3d" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\app" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\communication" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\events" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\gl" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\graphics" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\math" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\sound" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\types" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\utils" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\openFrameworks\video" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\poco\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\tess2\include" />
+			<Add directory="C:\of_v0073_win_cb_release\libs\cairo\include\cairo" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxNetwork\libs" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxNetwork\src" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\contrib" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\ml" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\ts" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\video" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\libs" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\src" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\src" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libfreenect" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libfreenect\lib" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\osx\include\libusb-1.0" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui audio" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui audio\license" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui audio\license\libusb-win32" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui camera" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui camera\license" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui camera\license\libusb-win32" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui motor" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui motor\license" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxKinect\libs\libusb\win\inf\xbox nui motor\license\libusb-win32" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxMSAInteractiveObject\libs" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxMSAInteractiveObject\src" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\libs" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\src" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\include" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\include\nite" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\include\libusb" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\include\openni" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxOpenNI\include\openni\Win32" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxXmlSettings" />
+			<Add directory="C:\of_v0073_win_cb_release\addons\ofxQTVideoSaver\src" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\of_v0073_win_cb_release\libs\FreeImage\lib\win_cb\FreeImage.lib" />
+			<Add library="C:\of_v0073_win_cb_release\libs\rtAudio\lib\win_cb\librtaudio.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\quicktime\lib\win_cb\qtmlClient.lib" />
+			<Add library="C:\of_v0073_win_cb_release\libs\cairo\lib\win_cb\libcairo.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\cairo\lib\win_cb\libpixman-1.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\freetype\lib\win_cb\libfreetype.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\glut\lib\win_cb\libglut.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\videoInput\lib\win_cb\videoInputLib.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\fmodex\lib\win_cb\libfmodex.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\glew\lib\win_cb\glew32s.lib" />
+			<Add library="C:\of_v0073_win_cb_release\libs\glu\lib\win_cb\glu32.lib" />
+			<Add library="C:\of_v0073_win_cb_release\libs\poco\lib\win_cb\libPocoNet.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\poco\lib\win_cb\libPocoUtil.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\poco\lib\win_cb\libPocoXML.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\poco\lib\win_cb\libPocoFoundation.a" />
+			<Add library="C:\of_v0073_win_cb_release\libs\tess2\lib\win_cb\libtess2.a" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="msimg32" />
+			<Add library="glu32" />
+			<Add library="dsound" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="strmbase" />
+			<Add library="strmiids" />
+			<Add library="z" />
+			<Add library="uuid" />
+			<Add library="ole32" />
+			<Add library="oleaut32" />
+			<Add library="setupapi" />
+			<Add library="wsock32" />
+			<Add library="ws2_32" />
+			<Add library="Iphlpapi" />
+			<Add library="Comdlg32" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_legacy231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_haartraining_engine.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_calib3d231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_features2d231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_objdetect231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_imgproc231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_video231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_highgui231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_ml231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_core231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_flann231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_contrib231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_gpu231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libopencv_ts231.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\lib\win_cb\libzlib.a" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\openNI.lib" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVCNITE_1_5_2.lib" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVFeatures_1_5_2.lib" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVHandGenerator_1_5_2.lib" />
+			<Add library="C:\of_v0073_win_cb_release\addons\ofxOpenNI\win\copy_to_data_openni_path\lib\XnVNITE_1_5_2.lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after='xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;' />
+			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxNetwork.h">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxNetworkUtils.h">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxTCPClient.cpp">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxTCPClient.h">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxTCPManager.cpp">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxTCPManager.h">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxTCPServer.cpp">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxTCPServer.h">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxUDPManager.cpp">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxNetwork\src\ofxUDPManager.h">
+			<Option virtualFolder="addons\ofxNetwork\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d\calib3d.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\contrib\contrib.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\contrib" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\contrib\retina.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\contrib" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\core.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\core_c.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\eigen.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\internal.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\mat.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\operations.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\types_c.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\version.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\core\wimage.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\core" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d\features2d.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\features2d" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\all_indices.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\allocator.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\any.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\autotuned_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\composite_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\config.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\defines.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\dist.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\dummy.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\dynamic_bitset.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\flann.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\flann_base.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\general.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\ground_truth.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\hdf5.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\heap.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\hierarchical_clustering_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\index_testing.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\kdtree_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\kdtree_single_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\kmeans_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\linear_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\logger.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\lsh_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\lsh_table.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\matrix.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\miniflann.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\nn_index.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\object_factory.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\params.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\random.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\result_set.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\sampling.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\saving.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\simplex_downhill.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\flann\timer.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\flann" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu\devmem2d.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\gpu" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu\gpu.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\gpu" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu\gpumat.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\gpu" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu\matrix_operations.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\gpu" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu\stream_accessor.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\gpu" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui\highgui.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\highgui" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui\highgui_c.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\highgui" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\imgproc.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\imgproc_c.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc\types_c.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy\blobtrack.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\legacy" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy\compat.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\legacy" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy\legacy.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\legacy" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy\streams.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\legacy" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\ml\ml.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\ml" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect\objdetect.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\opencv.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\ts\ts.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\ts" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\ts\ts_gtest.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\ts" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\video\background_segm.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\video" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\video\tracking.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\video" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv2\video\video.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv2\video" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cv.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cv.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cvaux.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cvaux.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cvwimage.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cxcore.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cxcore.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cxeigen.hpp">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\cxmisc.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\highgui.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\libs\opencv\include\opencv\ml.h">
+			<Option virtualFolder="addons\ofxOpenCv\libs\opencv\include\opencv" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvBlob.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvColorImage.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvConstants.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvHaarFinder.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvImage.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvImage.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvMain.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxCvShortImage.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenCv\src\ofxOpenCv.h">
+			<Option virtualFolder="addons\ofxOpenCv\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenNI\src\ofxOpenNI.cpp">
+			<Option virtualFolder="addons\ofxOpenNI\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenNI\src\ofxOpenNI.h">
+			<Option virtualFolder="addons\ofxOpenNI\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenNI\src\ofxOpenNITypes.cpp">
+			<Option virtualFolder="addons\ofxOpenNI\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenNI\src\ofxOpenNITypes.h">
+			<Option virtualFolder="addons\ofxOpenNI\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxOpenNI\src\ofxOpenNIUtils.h">
+			<Option virtualFolder="addons\ofxOpenNI\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxQTVideoSaver\src\ofxQtVideoSaver.cpp">
+			<Option virtualFolder="addons\ofxQTVideoSaver\src\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxQTVideoSaver\src\ofxQtVideoSaver.h">
+			<Option virtualFolder="addons\ofxQTVideoSaver\src\" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\src" />
+		</Unit>
+		<Unit filename="C:\of_v0073_win_cb_release\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Option virtualFolder="addons\ofxXmlSettings\src" />
+		</Unit>
+		<Unit filename="src\Base64.h">
+			<Option virtualFolder="src\Utils\" />
+		</Unit>
+		<Unit filename="src\Constants.h">
+			<Option virtualFolder="src\Data\" />
+		</Unit>
+		<Unit filename="src\FrameUtils.h">
+			<Option virtualFolder="src\Data\" />
+		</Unit>
+		<Unit filename="src\GlobalData.cpp">
+			<Option virtualFolder="src\Data\" />
+		</Unit>
+		<Unit filename="src\GlobalData.h">
+			<Option virtualFolder="src\Data\" />
+		</Unit>
+		<Unit filename="src\Grabber.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\Grabber.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\IGrabber.h">
+			<Option virtualFolder="src\" />
+		</Unit>
+		<Unit filename="src\Thread2D.cpp">
+			<Option virtualFolder="src\Threads\" />
+		</Unit>
+		<Unit filename="src\Thread2D.h">
+			<Option virtualFolder="src\Threads\" />
+		</Unit>
+		<Unit filename="src\Thread3D.cpp">
+			<Option virtualFolder="src\Threads\" />
+		</Unit>
+		<Unit filename="src\Thread3D.h">
+			<Option virtualFolder="src\Threads\" />
+		</Unit>
+		<Unit filename="src\ThreadData.h">
+			<Option virtualFolder="src\Data\" />
+		</Unit>
+		<Unit filename="src\ToHex.h">
+			<Option virtualFolder="src\Utils\" />
+		</Unit>
+		<Unit filename="src\Transmitter.cpp">
+			<Option virtualFolder="src\Threads\" />
+		</Unit>
+		<Unit filename="src\Transmitter.h">
+			<Option virtualFolder="src\Threads\" />
+		</Unit>
+		<Unit filename="src\main.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

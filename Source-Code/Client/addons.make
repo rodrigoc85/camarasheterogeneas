@@ -1,0 +1,6 @@
+ofxNetwork
+ofxOpenCv
+ofxXmlSettings
+ofxKinect
+ofxMSAInteractiveObject
+ofxOpenNI

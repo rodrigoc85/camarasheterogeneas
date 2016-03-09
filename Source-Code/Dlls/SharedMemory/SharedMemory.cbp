@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SharedMemory" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons\;src\;addons\ofxSharedMemory\src\;" />
+		<Build>
+			<Target title="release">
+				<Option output="bin/$(PROJECT_NAME)" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/release" />
+				<Option external_deps="C:/openframeworks/libs/openFrameworksCompiled/lib/win_cb/openFrameworks.lib;" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="C:/openframeworks/libs/openFrameworksCompiled/lib/win_cb/openFrameworks.lib" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="bin/$(PROJECT_NAME)_DEBUG" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/debug/" />
+				<Option external_deps="C:/openframeworks/libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib;" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="C:/openframeworks/libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wno-multichar" />
+			<Add option="-DBUILD_DLL" />
+			<Add directory="C:/openframeworks/libs/glu/include" />
+			<Add directory="C:/openframeworks/libs/freetype/include" />
+			<Add directory="C:/openframeworks/libs/freetype/include/freetype2" />
+			<Add directory="C:/openframeworks/libs/FreeImage/include" />
+			<Add directory="C:/openframeworks/libs/quicktime/include" />
+			<Add directory="C:/openframeworks/libs/rtAudio/include" />
+			<Add directory="C:/openframeworks/libs/fmodex/include" />
+			<Add directory="C:/openframeworks/libs/videoInput/include" />
+			<Add directory="C:/openframeworks/libs/glew/include" />
+			<Add directory="C:/openframeworks/libs/glut/include" />
+			<Add directory="C:/openframeworks/libs/openFrameworks" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/3d" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/app" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/communication" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/events" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/gl" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/graphics" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/math" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/sound" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/types" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/utils" />
+			<Add directory="C:/openframeworks/libs/openFrameworks/video" />
+			<Add directory="C:/openframeworks/libs/poco/include" />
+			<Add directory="C:/openframeworks/libs/tess2/include" />
+			<Add directory="C:/openframeworks/libs/cairo/include/cairo" />
+			<Add directory="C:/openframeworks/addons/ofxSharedMemory/libs" />
+			<Add directory="C:/openframeworks/addons/ofxSharedMemory/src" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\openframeworks\libs\FreeImage\lib\win_cb\FreeImage.lib" />
+			<Add library="C:\openframeworks\libs\rtAudio\lib\win_cb\librtaudio.a" />
+			<Add library="C:\openframeworks\libs\quicktime\lib\win_cb\qtmlClient.lib" />
+			<Add library="C:\openframeworks\libs\cairo\lib\win_cb\libcairo.a" />
+			<Add library="C:\openframeworks\libs\cairo\lib\win_cb\libpixman-1.a" />
+			<Add library="C:\openframeworks\libs\freetype\lib\win_cb\libfreetype.a" />
+			<Add library="C:\openframeworks\libs\glut\lib\win_cb\libglut.a" />
+			<Add library="C:\openframeworks\libs\videoInput\lib\win_cb\videoInputLib.a" />
+			<Add library="C:\openframeworks\libs\fmodex\lib\win_cb\libfmodex.a" />
+			<Add library="C:\openframeworks\libs\glew\lib\win_cb\glew32s.lib" />
+			<Add library="C:\openframeworks\libs\glu\lib\win_cb\glu32.lib" />
+			<Add library="C:\openframeworks\libs\poco\lib\win_cb\libPocoNet.a" />
+			<Add library="C:\openframeworks\libs\poco\lib\win_cb\libPocoUtil.a" />
+			<Add library="C:\openframeworks\libs\poco\lib\win_cb\libPocoXML.a" />
+			<Add library="C:\openframeworks\libs\poco\lib\win_cb\libPocoFoundation.a" />
+			<Add library="C:\openframeworks\libs\tess2\lib\win_cb\libtess2.a" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="msimg32" />
+			<Add library="glu32" />
+			<Add library="dsound" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="strmbase" />
+			<Add library="strmiids" />
+			<Add library="z" />
+			<Add library="uuid" />
+			<Add library="ole32" />
+			<Add library="oleaut32" />
+			<Add library="setupapi" />
+			<Add library="wsock32" />
+			<Add library="ws2_32" />
+			<Add library="Iphlpapi" />
+			<Add library="Comdlg32" />
+		</Linker>
+		<Unit filename="C:/openframeworks/addons/ofxSharedMemory/src/ofxSharedMemory.h">
+			<Option virtualFolder="addons/ofxSharedMemory/src" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/main.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
